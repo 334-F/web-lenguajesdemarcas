@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2.17 - Videos con Iframe y Local</title>
+</head>
+<body>
+    <h1>Actividad 2.17: Ejemplo de inclusión de video con iframe, local y con subtítulos</h1>
+
+    <h2>Video con iframe (Dailymotion)</h2>
+    <iframe width="560" height="315" src="https://www.dailymotion.com/video/x6ci2hk" title="Video de Dailymotion"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <h2>Video local</h2>
+    <video width="560" height="315" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <h2>Video local con subtítulos</h2>
+    <video width="560" height="315" controls>
+        <source src="video.mp4" type="video/mp4">
+        <track src="subtitles.vtt" kind="subtitles" srclang="es" label="Español">
+    </video>
+    <br><br>
+    <br>
+    <a href="index.html" class="return-home"><i class="fas fa-home"></i>Volver a la página de inicio</a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</body>
+</html> 
